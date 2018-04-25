@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Datos del Alumno</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScrip-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"</script> -->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/archivos/deporte2.jpg','imagenes/bicicleta2.jpg','imagenes/bicicleta7.jpg','imagenes/bicicleta10.jpg','imagenes/bicicleta8.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Dia mundiall de la bicicleta</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Banner conmerativo</h1>
+   <div>
+     <img src="imagenes/bicicleta.jpg" width="200" height="200">
+     </div>
+    </div>
+  </div>
+     <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class ="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Historia de la bicicleta</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Utilizacion como medio de transporte</h2>
+     </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Tipos de bicicletas</h2>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>5 marcas importantes de bicicletas</h2>
+     </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Porque se celebra el dia mundial de la bicicleta</h2>
+     </a>
+   </li>
+    </ul>
+</div>
+<a href="https://bicihome.com/la-historia-de-las-bicicleta"target="_self"/>Para mas informacion dar clic</a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/bici.png" width="46" height="46">
+ </div>
+  <div>
+    <h4>Aplicacion Tres</h4>
+    <h4>Caleb Arriola Leon</h4>
+    </div>
+  </div>
+</div>
+<div data-role="page" id ="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Historia de la bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+   <h2>Lo único que está claro es que la bicicleta es un invento europeo. Dependiendo de lo que consideremos una bicicleta existen unas fechas u otras, siendo la primera bicicleta a pedales patentada como tal y a partir de la cual ha evolucionado la industria en el siglo XX la del británico John Kemp Starley en 1885, si bien es cierto que se basó en los modelos europeos construidos a lo largo de todo el siglo XIX.
+Existe la creencia de que Leonardo Da Vinci creó el primer boceto en papel de una bicicleta (¡que incluía hasta la cadena de transmisión!) a finales del siglo XV, pero el investigador alemán Hans-Erhard Lessing demostró en 1997 que el diseño se introdujo en los documentos de Leonardo a partir de 1961. También a finales del siglo XVIII, un francés, el conde de Sivrac habría inventado el celerífero, un primitivo cuadro sobre dos ruedas con una cabeza de animal, pero autores como Max Rauck, Gerd Volke y Felix Paturi han desmentido esta fecha atribuyéndola a antiguas rivalidades nacionalistas entre franceses y alemanes./h2>
+ </div>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/bicicleta2.jpg',1)"><img src="imagenes/bicicleta11.jpg" width="200" height="200" id="Image9"></a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+<img src="imagenes/bici.png" width="46" height="46">
+</div>
+ <h4>Aplicacion Dos CAL</h4>
+ </div>
+ </div>
+ 
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1> Utilizacion de la bicil¿cleta </h1>
+	</div>
+	<div data-role="content" align="center">
+		<div>
+			<h2>#Para tu salud
+
+Es un buen ejercicio aeróbico que combate los riesgos de sufrir sobre pero u obesidad.
+Ayuda al sistema cardiovascular y tonifica los músculos.
+Reduce los niveles de estrés, ocasionando que tengas un mejor estado de ánimo.
+#Para el medio ambiente
+
+Puedes ayudar a reducir los niveles de monóxido y dióxido de carbono que provocan la contaminación del aire. 
+Promover novedosos proyectos para la implementación de ciclo vías 
+El uso de las bicicletas promueve estilos de vida saludables para las personas.
+#Para la economía:
+
+Ahorraras todo el dinero que gastas en combustible, peaje y mantenimiento en el caso tengas un   automóvil.
+También podrás ahorrar todos los pasajes de transporte público en caso no tengas un auto</h2>
+</div>
+</div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/bicicleta10.jpg',1)"><img src="imagenes/bicicleta7.jpg" width="200" height="200" id="Image33"></a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="imagenes/bici.png" width="46" height="46" alt=""/>
+</div>
+<h4>Aplicacion Tres, CAL</h4>
+</div>
+</div>
+   
+   
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Tipos de bicicleta</h1>
+   </div>
+   <div data-role="content" align="center">
+   <div>
+   <h2>Bicicletas de Montaña (MTB)
+Bicicletas de Ruta
+Bicicletas Híbridas
+Bicicletas Urbanas. 
+Bicicletas plegables. 
+Fixies y single speed. 
+Cruisers. 
+MBX.</h2></div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/bicicleta10.jpg',1)"><img src="imagenes/bicicleta9.jpg" width="200" height="200" id="Image11"></a> </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/bici.png" width="46" height="46">
+   </div>
+     <h4>Aplicacion Tres CAL</h4>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>5 marcas importantes de bicicleta</h1>
+ </div>
+  <div>
+  <h2>Orbea.
+            Conor. 
+            Cannondale. 
+            Merida. 
+            Scott</h2>
+  </div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/bicicleta8.jpg',1)"><img src="imagenes/bicicleta3.jpg" width="200" height="200" id="Image25"></a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="imagenes/bici.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Tres CAL</h4>
+ </div>
+   </div>
+    
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Porque se celebra el dia mundial de la bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El 19 de abril se celebra el Día Mundial de la Bicicleta, con el objetivo de promover el uso de este medio de transporte sostenible, sano y divertido, y concienciar sobre los derechos de los ciclistas.
+Y como muchos Días Mundiales e Internacionales, este día tiene una curiosa historia detrás, que te sorprenderá seguro. 
+La fecha hace referencia al 19 de abril de 1943 cuando Albert Hofmann, conocido como el padre del LSD, realizara en su laboratorio un experimento en el que ingirió 0,25 miligramos de ácido lisérgico (LSD) para ver sus efectos y tuvo que volver a casa en bicicleta porque a consecuencia de la guerra no estaba permitido el desplazamiento en vehículos a motor. 
+En ese viaje tuvo algunos problemas y acabó en el médico porque pensaba que la sustancia lo había envenenado. Después de algunos efectos de terror, empezó a sentir disfrute y buenas sensaciones. Y finalmente acabó bien. Hofmann había descubierto una sustancia que pensó que podría tener aplicación en el mundo de la psiquiatría, por sus efectos introspectivos, aunque nunca pensó que nadie lo usaría de modo recreativo.
+Pero realmente la primera vez que se celebró el Día Mundial de la Bicicleta fue en DeKalb, una ciudad estadounidense del estado de Illinois, en 1985. El profesor de Universidad Thomas B. Roberts quiso conmemorar la primera experiencia de Hofmann con el LSD.</h2></div>
+ 
+   </div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bicicleta.jpg" alt="bicicleta" title="bicicleta" id="wows1_0"/></li>
+		<li><img src="data1/images/bicicleta2.jpg" alt="bicicleta2" title="bicicleta2" id="wows1_1"/></li>
+		<li><img src="data1/images/bicicleta3.jpg" alt="bicicleta3" title="bicicleta3" id="wows1_2"/></li>
+		<li><img src="data1/images/bicicleta4.jpg" alt="bicicleta4" title="bicicleta4" id="wows1_3"/></li>
+		<li><img src="data1/images/bicicleta5.jpg" alt="bicicleta5" title="bicicleta5" id="wows1_4"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/bicicleta7.jpg" alt="wowslider.net" title="bicicleta7" id="wows1_5"/></a></li>
+		<li><img src="data1/images/bicicleta8.jpg" alt="bicicleta8" title="bicicleta8" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bicicleta"><span><img src="data1/tooltips/bicicleta.jpg" alt="bicicleta"/>1</span></a>
+		<a href="#" title="bicicleta2"><span><img src="data1/tooltips/bicicleta2.jpg" alt="bicicleta2"/>2</span></a>
+		<a href="#" title="bicicleta3"><span><img src="data1/tooltips/bicicleta3.jpg" alt="bicicleta3"/>3</span></a>
+		<a href="#" title="bicicleta4"><span><img src="data1/tooltips/bicicleta4.jpg" alt="bicicleta4"/>4</span></a>
+		<a href="#" title="bicicleta5"><span><img src="data1/tooltips/bicicleta5.jpg" alt="bicicleta5"/>5</span></a>
+		<a href="#" title="bicicleta7"><span><img src="data1/tooltips/bicicleta7.jpg" alt="bicicleta7"/>6</span></a>
+		<a href="#" title="bicicleta8"><span><img src="data1/tooltips/bicicleta8.jpg" alt="bicicleta8"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <img src="imagenes/bici.png" width="46" height="46">
+  </div>
+      <h4>Aplicacion Tres CAL</h4>
+     </div>
+   </div>
+</body>
+ </html>
